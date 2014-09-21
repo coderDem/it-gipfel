@@ -36,13 +36,10 @@ module.exports = (grunt) ->
                 tasks: ['sass']
 
         sass:
-
             theme:
-                files:
-                    'css/theme.css': 'css/source/theme.scss'
+                files: 'css/theme.css': 'css/source/theme.scss'
         
         connect:
-
             livereload:
                 options:
                     port: 9000
